@@ -1,0 +1,285 @@
+============================================================
+        MacroLog -- Nutrition Macro Tracker
+        Console Application -- Example Execution
+        Course: BACSE105 Object Oriented Programming
+        VIT Vellore | Team: 25BCE0283, 25BCE0226,
+                            25BCE0275, 25BCE0242
+============================================================
+
+COMPILATION:
+  g++ main.cpp -o MacroLog
+
+EXECUTION:
+  ./MacroLog
+
+------------------------------------------------------------
+OUTPUT START
+------------------------------------------------------------
+
+========================================
+     NUTRITION MACRO TRACKER
+========================================
+Database loaded: 556 food items.
+
+--- MAIN MENU ---
+1. Add food item to Plan A (Bulking Plan)
+2. Add food item to Plan B (Cutting Plan)
+3. Search food in database
+4. View Plan A Report
+5. View Plan B Report
+6. Compare Plans
+7. Exit
+Enter choice: 3
+
+Enter keyword to search: chicken
+
+--- Matching foods ---
+  Butter Chicken          [P: 17g    C: 9g     F: 14g]
+  Chicken Curry           [P: 18g    C: 8g     F: 12g]
+  Chicken Breast (Boiled) [P: 31g    C: 0g     F: 3.6g]
+  Chicken Breast (Grilled)[P: 30g    C: 0g     F: 4g]
+  Chicken Kabab           [P: 24g    C: 5g     F: 8g]
+  Chicken Keema           [P: 20g    C: 6g     F: 14g]
+  Chicken Korma           [P: 16g    C: 10g    F: 16g]
+  Chicken Kathi Roll      [P: 18g    C: 36g    F: 11g]
+  Chicken Nuggets (6pc)   [P: 14g    C: 18g    F: 12g]
+  Chicken Puff            [P: 10g    C: 28g    F: 12g]
+  Chicken Shawarma Roll   [P: 18g    C: 34g    F: 12g]
+  Chicken Soup            [P: 6g     C: 4g     F: 2.5g]
+  Chicken Tikka           [P: 26g    C: 4g     F: 7.5g]
+  Chicken Tikka Masala    [P: 18.5g  C: 10g    F: 13g]
+  Chilli Chicken          [P: 18g    C: 16g    F: 11g]
+  Fried Chicken (KFC)     [P: 20g    C: 15g    F: 16g]
+  Tandoori Chicken        [P: 25g    C: 5g     F: 8g]
+----------------------
+
+--- MAIN MENU ---
+1. Add food item to Plan A (Bulking Plan)
+2. Add food item to Plan B (Cutting Plan)
+3. Search food in database
+4. View Plan A Report
+5. View Plan B Report
+6. Compare Plans
+7. Exit
+Enter choice: 1
+
+Enter food name (or keyword to search): Chicken Breast (Boiled)
+
+Found in database!
+  Chicken Breast (Boiled)  [Protein: 31g  Carbs: 0g  Fat: 3.6g]
+Use these values? (y/n): y
+Chicken Breast (Boiled) added to Bulking Plan!
+
+--- MAIN MENU ---
+Enter choice: 1
+
+Enter food name (or keyword to search): Brown Rice
+
+Found in database!
+  Brown Rice  [Protein: 2.6g  Carbs: 23g  Fat: 0.9g]
+Use these values? (y/n): y
+Brown Rice added to Bulking Plan!
+
+--- MAIN MENU ---
+Enter choice: 1
+
+Enter food name (or keyword to search): paneer
+
+Exact match not found. Searching similar items...
+
+--- Matching foods ---
+  Matar Paneer            [P: 9g     C: 14g    F: 11g]
+  Palak Paneer            [P: 8.5g   C: 10g    F: 12g]
+  Paneer (Raw)            [P: 18g    C: 1.2g   F: 20g]
+  Paneer Bhurji           [P: 12g    C: 8g     F: 14g]
+  Paneer Butter Masala    [P: 10.5g  C: 13g    F: 16g]
+  Paneer Paratha          [P: 8g     C: 46g    F: 10g]
+  Paneer Tikka (Street)   [P: 14g    C: 8g     F: 10g]
+  Shahi Paneer            [P: 10g    C: 12g    F: 15g]
+----------------------
+Try exact name from above? (y/n): y
+Enter exact name: Palak Paneer
+Palak Paneer added to Bulking Plan!
+
+--- MAIN MENU ---
+Enter choice: 1
+
+Enter food name (or keyword to search): Oats (Rolled)
+
+Found in database!
+  Oats (Rolled)  [Protein: 17g  Carbs: 66g  Fat: 7g]
+Use these values? (y/n): y
+Oats (Rolled) added to Bulking Plan!
+
+--- MAIN MENU ---
+Enter choice: 2
+
+Enter food name (or keyword to search): Moong Dal
+
+Found in database!
+  Moong Dal  [Protein: 7g  Carbs: 17g  Fat: 3.5g]
+Use these values? (y/n): y
+Moong Dal added to Cutting Plan!
+
+--- MAIN MENU ---
+Enter choice: 2
+
+Enter food name (or keyword to search): Cucumber
+
+Found in database!
+  Cucumber  [Protein: 0.7g  Carbs: 3.6g  Fat: 0.1g]
+Use these values? (y/n): y
+Cucumber added to Cutting Plan!
+
+--- MAIN MENU ---
+Enter choice: 2
+
+Enter food name (or keyword to search): Sprouts (Moong)
+
+Found in database!
+  Sprouts (Moong)  [Protein: 8g  Carbs: 18g  Fat: 0.6g]
+Use these values? (y/n): y
+Sprouts (Moong) added to Cutting Plan!
+
+--- MAIN MENU ---
+Enter choice: 2
+
+Enter food name (or keyword to search): Curd (Dahi)
+
+Found in database!
+  Curd (Dahi)  [Protein: 3.5g  Carbs: 4.7g  Fat: 4g]
+Use these values? (y/n): y
+Curd (Dahi) added to Cutting Plan!
+
+--- MAIN MENU ---
+Enter choice: 2
+
+Enter food name (or keyword to search): xyz_unknown_item
+
+Exact match not found. Searching similar items...
+
+--- Matching foods ---
+  No matches found.
+----------------------
+Try exact name from above? (y/n): n
+
+--- Manual Entry ---
+Enter food name: Apple Slices
+Enter Protein (g): 0.3
+Enter Carbs (g): 14
+Enter Fat (g): 0.2
+Apple Slices added to Cutting Plan!
+
+============================================================
+  DEMONSTRATION: INPUT VALIDATION
+============================================================
+
+--- MAIN MENU ---
+Enter choice: 1
+
+Enter food name (or keyword to search): Test Item
+
+Exact match not found. Searching similar items...
+--- Matching foods ---
+  No matches found.
+Try exact name from above? (y/n): n
+
+--- Manual Entry ---
+Enter food name: Validation Test
+Enter Protein (g): -10
+Invalid! Enter positive value: -5
+Invalid! Enter positive value: 25
+Enter Carbs (g): 30
+Enter Fat (g): 5
+Validation Test added to Bulking Plan!
+
+(Note: Negative values rejected twice before valid input accepted)
+
+============================================================
+  PLAN A REPORT
+============================================================
+
+--- MAIN MENU ---
+Enter choice: 4
+
+========================================
+  Meal Plan: Bulking Plan
+========================================
+Food Items Logged: 5
+----------------------------------------
+1. Chicken Breast (Boiled)  [P: 31g    C: 0g    F: 3.6g]
+2. Brown Rice               [P: 2.6g   C: 23g   F: 0.9g]
+3. Palak Paneer             [P: 8.5g   C: 10g   F: 12g]
+4. Oats (Rolled)            [P: 17g    C: 66g   F: 7g]
+5. Validation Test          [P: 25g    C: 30g   F: 5g]
+----------------------------------------
+Total Protein : 84.1g
+Total Carbs   : 129g
+Total Fat     : 28.5g
+========================================
+
+============================================================
+  PLAN B REPORT
+============================================================
+
+--- MAIN MENU ---
+Enter choice: 5
+
+========================================
+  Meal Plan: Cutting Plan
+========================================
+Food Items Logged: 5
+----------------------------------------
+1. Moong Dal         [P: 7g     C: 17g    F: 3.5g]
+2. Cucumber          [P: 0.7g   C: 3.6g   F: 0.1g]
+3. Sprouts (Moong)   [P: 8g     C: 18g    F: 0.6g]
+4. Curd (Dahi)       [P: 3.5g   C: 4.7g   F: 4g]
+5. Apple Slices      [P: 0.3g   C: 14g    F: 0.2g]
+----------------------------------------
+Total Protein : 19.5g
+Total Carbs   : 57.3g
+Total Fat     : 8.4g
+========================================
+
+============================================================
+  COMPARE PLANS (Friend Function: ComparePlans())
+============================================================
+
+--- MAIN MENU ---
+Enter choice: 6
+
+========================================
+   COMPARISON REPORT
+   Bulking Plan  vs  Cutting Plan
+========================================
+
+Macro         Plan A     Plan B     Difference
+------------------------------------------------
+Protein(g)    84.1       19.5       64.6
+Carbs(g)      129        57.3       71.7
+Fat(g)        28.5       8.4        20.1
+
+--- Which plan is higher? ---
+Protein : Bulking Plan is higher by 64.6g
+Carbs   : Bulking Plan is higher by 71.7g
+Fat     : Bulking Plan is higher by 20.1g
+========================================
+
+--- MAIN MENU ---
+Enter choice: 7
+
+Exiting. Goodbye!
+
+------------------------------------------------------------
+OUTPUT END
+------------------------------------------------------------
+
+NOTE:
+  The ComparePlans() function above is a FRIEND FUNCTION
+  declared inside the MealPlan class. It directly accesses
+  the private members total_protein, total_carbs, and
+  total_fat from both MealPlan objects (planA and planB)
+  without using any getter methods -- demonstrating the
+  core OOP concept of this project.
+
+============================================================
